@@ -48,7 +48,7 @@ export default {
     backupLang: 'en',
 
     async onLoad() {
-        console.log("FORKED PLUGIN-DAYJS 1");
+        console.log("FORKED PLUGIN-DAYJS 2");
         const lang = computed(() => wwLib.$store.getters['front/getLang']);
 
         for (let locale of localesList.default) {
