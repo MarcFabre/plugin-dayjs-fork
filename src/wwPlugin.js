@@ -110,6 +110,7 @@ export default {
         return dayjs(date2).diff(dayjs(date1), precision, float);
     },
     getSecond(date = new Date().toISOString()) {
+        console.log("PLUGIN 3")
         return dayjs(date).get('second');
     },
     getMinute(date = new Date().toISOString()) {
